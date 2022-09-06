@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #262626;
+}
+.bg-img {
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(109, 109, 109, 0.2),
+      rgba(109, 109, 109, 0.4)
+    ),
+    url("../images/banner.jpg");
+  background-position: center;
+  height: 100vh;
+}
+.nav ul {
+  list-style: none;
+}
+.self-info {
+  background-color: #d9d9d9;
+}
+.self-target {
+  background-color: #e6e6e6;
+}
+.self-info ul {
+  list-style: none;
+}
+.self-intro span {
+  font-weight: bold;
+}
+.language {
+  display: inline-block;
+  height: 5px;
+  width: 60px;
+  background-color: #3399ff;
+}
+.language:last-child {
+  background-color: #cccccc;
+}
+.htmls span,
+.javascripts span,
+.nodejss span,
+.boostrap5 span {
+  display: inline-block;
+}
+.html,
+.boostrap {
+  height: 5px;
+  width: 60px;
+  background-color: #cccccc;
+}
+.html:first-child,
+.boostrap:first-child {
+  background-color: #3399ff;
+}
+.javascript,
+.nodejs {
+  height: 5px;
+  width: 60px;
+  background-color: #3399ff;
+}
+.javascript:last-child,
+.nodejs:last-child {
+  background-color: #cccccc;
+}
+.prize {
+  background-color: #f2f2f2;
+}
+.prize img {
+  width: 80%;
+}
+.project {
+  border: 1px solid #cccccc;
+}
+.project img {
+  width: 100%;
+}
+.skills li {
+  font-weight: bold;
+}
+table tr,
+.project p,
+.project h3 {
+  border-top: 1px solid #cccccc;
+}
+footer a {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 426px) {
+  .navs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .navs a {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    margin: 0px;
+  }
+  .prize1 {
+    border-right: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+  }
+  .prize2 {
+    border-bottom: 1px solid #ffc107;
+  }
+  footer {
+    background-color: #e6e6e6;
+  }
+}
+
+/* For mobile */
+@media screen and (max-width: 425px) {
+  .hide {
+    font-size: 0;
+  }
+  .prize1 {
+    border-bottom: 1px solid #ffc107;
+  }
+  .prize2 {
+    border-bottom: 1px solid #ffc107;
+  }
+}
